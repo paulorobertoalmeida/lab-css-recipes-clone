@@ -31,12 +31,17 @@ h1 {
 
 .first-content p {
     color: darkgray;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 1px;
 }
 
 .first-content div {
+    margin: 20px;
     display: flex;
     align-items: center;
-    width: 600px;
+    width: 800px;
     justify-content: center;
 }
 
@@ -50,9 +55,10 @@ h1 {
 }
 
 .second-content div {
+    margin: 20px;
     display: flex;
     align-items: center;
-    width: 600px;
+    width: 800px;
     justify-content: center;
 }
 
@@ -72,8 +78,19 @@ h1 {
 
 .second-content p {
     color: darkgray;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 1px;
 }
 
 .recipe {
     flex-direction: column;
 }
+
+h2{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+} 
