@@ -12,26 +12,50 @@ section {
   display: grid;
   grid-template-columns: 100%;
   grid-row-gap: 2rem;
-  grid-template-rows: 100px 100px;
+  grid-template-rows: 100px 500px;
   /* justify-items: end; */
   place-content: center flex-end;
 
 }
 
-.container div {
+div {
   width: 100%;
-  height: 25vh;
-  background-color: tomato;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.internal-grid{
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  justify-items: center;
+  align-items: center
+}
+
+.cover-text {
+  font-size: 2.5em;
+  position: absolute;
+  position: center;
+  align-items: center;
+  color: #fff;
+
+}
+
 .soup-img {
   width: 100%;
-  height: 300px;
+  height: 600px;
   background-image: url('../../french-soup/images/soup.jpg');
   background-position: center center ;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+}
+
+.png-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/cooking-info.png');
+  background-position: center center ;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
